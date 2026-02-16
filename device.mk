@@ -33,6 +33,9 @@ PRODUCT_PACKAGES += \
     WifiResDeviceXT2363-8 \
     WifiResDeviceXT2363-9
 
+# Overlay Derp Maintainer
+PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+
 # GameBar Performance Overlay
 $(call inherit-product, packages/apps/GameBar/gamebar.mk)
 
