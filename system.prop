@@ -1,0 +1,9 @@
+# device props MISTIFY
+ro.mist.display=720 x 1600 , 120 hz
+ro.mist.battery=5000mah
+ro.mist.soc=Snapdragon® 695
+ro.mist.camera=50MP + 2MP
+ro.mist.front=16MP
+ro.mist.platform=SM6375
+ro.mist.screen=6.5' IPS LCD
+ro.mist.device.name=Motorola moto g34 5G
