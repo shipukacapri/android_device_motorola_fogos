@@ -10,3 +10,11 @@ ro.mot.build.customerid=global
 
 # SKU specific properties
 import /product/etc/hardware.sku.${ro.boot.hardware.sku}.prop
+
+# Infinity Specific Properties
+ro.infinity.soc=Snapdragon 460
+ro.infinity.camera=48MP + 8MP + 2MP + 2MP + 8MP
+ro.infinity.display=720 x 1600, IPS LCD
+ro.vendor.product.display.plain_text=moto g(10) power
+ro.product.marketname=moto g(10) power (India)
+ro.infinity.battery=6000 mAh
