@@ -4,6 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-      <string name="updater_server_url" translatable="https://raw.githubusercontent.com/shipukacapri/InfinityXOTA/refs/heads/main/devices/fogos.json</string>
+      <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/shipukacapri/InfinityXOTA/refs/heads/main/devices/fogos.json</string>
       <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/shipukacapri/InfinityXOTA/refs/heads/main/changelog/fogos.txt</string>
 </resources>
