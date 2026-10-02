@@ -10,6 +10,11 @@ TARGET_SCREEN_WIDTH := 720
 # Screen
 TARGET_SCREEN_DENSITY := 280
 
+# Moto Camera 4
+TARGET_MOTCAMERA4 := fogos
+
+$(call inherit-product, vendor/motorola/MotCamera4-sm6375/motcamera4.mk)
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := 280dpi
