@@ -14,6 +14,9 @@ $(call inherit-product, device/motorola/fogos/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# private key signing
+-include vendor/lineage-priv/keys/keys.mk
+
 PRODUCT_NAME := lineage_fogos
 PRODUCT_DEVICE := fogos
 PRODUCT_MANUFACTURER := motorola
@@ -26,3 +29,16 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="fogos_g-user 15 V1UGS35H.75-14-3-10 6668a-36fa40 release-keys MV-186" \
     BuildFingerprint=motorola/fogos_g/fogos:15/V1UGS35H.75-14-3-10/6668a-36fa40:user/release-keys \
     DeviceProduct=fogos_g
+
+#RisingOSRevived Flags
+RISING_MAINTAINER := Shipu
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
+TARGET_ENABLE_BLUR := true
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingMaintainer="Shipu" \
+    RisingChipset="Snapdragon 695 5G"
+
+# Disable kernel VINTF enforcement for 5.4 kernel
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
